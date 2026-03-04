@@ -1,9 +1,7 @@
-const CACHE_NAME = 'ponto-digital-v3';
+const CACHE_NAME = 'ponto-digital-v2';
 const urlsToCache = [
   '/',
   '/index.html',
-  '/icon.svg',
-  '/manifest.json',
 ];
 
 self.addEventListener('install', (event) => {
